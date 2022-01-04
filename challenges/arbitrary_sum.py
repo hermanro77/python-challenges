@@ -3,7 +3,7 @@
 def myfunc(*nums):
 	sum = 0
 	for num in nums:
-		sum += nums
+		sum += num
 	return sum
 
 # This way is kind of cheating
