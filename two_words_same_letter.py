@@ -13,13 +13,13 @@ import unittest
 
 class Test(unittest.TestCase):
 	def test_true(self):
-		self.assertEqual(myfunc('Lucky Llama'), True)
+		self.assertTrue(myfunc('Lucky Llama'))
 
 	def test_false(self):
-		self.assertEqual(myfunc('Lucky Alpaca'), False)
+		self.assertFalse(myfunc('Lucky Alpaca'))
 
 	def test_mixed_case(self):
-		self.assertEqual(myfunc('Lucky llama'), True)
+		self.assertTrue(myfunc('Lucky llama'))
 
 	def test_one_word(self):
 		with self.assertRaises(ValueError):
