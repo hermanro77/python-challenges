@@ -28,10 +28,9 @@ class TicTacToe:
 		return win
 	
 	def checkTie(self):
-		for r in self.board:
-			for c in r:
-				if c == ' ':
-					return False
+		for c in self.board:
+			if c == ' ':
+				return False
 		return True
 
 	def nextPlayer(self):
