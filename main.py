@@ -4,7 +4,7 @@ import unittest
 import sys
 
 loader = unittest.TestLoader()
-suite = loader.discover('challenges', '*.py')
+suite = loader.discover('tests/', pattern='test_*.py', top_level_dir='.')
 
 runner = unittest.TextTestRunner()
 res = runner.run(suite)

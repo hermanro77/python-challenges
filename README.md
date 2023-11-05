@@ -1,8 +1,23 @@
-# Python Challenges
-These are some small Python challenges. They all include the problem, solution, and unit testing.
+### Python Challenges
+These are some small Python challenges. 
+They in the problem in the challenges folder. 
+The solution can be found in the .solution folder. 
+Furthermore, all challenges can be tested via unit tests.
 
-## Testing
-`main.py` will run unit tests on every challenge. Running an individual challenge file will run tests just on it.
+### Testing
+`python main.py` will run all unit tests for all challenges at once.
 
-## Contrubuting
-Feel free to contribute new challenges, as long as they include a prompt that others can use to create their code and passing tests.
+#### With Intellij
+If you want to run the test specifically for one challenge after implementing your solution you can run the tests in intellij from the interface by clicking the green execute test button in the file.
+
+#### Other IDEs
+If you are using another IDE than Intellij the following approach is recommended:
+
+Make sure you have pip then install `pytest` with:
+
+`pip install pytest`
+
+Execute test with
+
+`pytest path_to_test_to_execute.py` 
+
