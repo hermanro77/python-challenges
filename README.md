@@ -43,3 +43,16 @@ Install `pytest` with pip by:
 Execute a test with for example:
 
 `pytest path_to_test_to_execute.py` 
+
+## Git. A tool for version control.
+
+If you are new to git and want to learn, I reccommend to create your own `branch` before you start implementing your solutions. You can create a branch for each challenge if you want.
+
+How do I create a branch? It is simple. When you ran the `git clone` command you already initialized your repository with git. So all you need to do is use the `git` command. Here are some helpful git commands to get started that you can run in your terminal within the repository folder:
+
+`git checkout -b challenge_1` This will create a branch called `challenge_1`
+`git status` This will give you an overview over all changes you have made to your files since you cloned the repository
+`git add .` This will stage all your changed files, making them ready to be committed
+`git commit -m "This is my first commit message` This will commit you changed files, meaning they are recorded in a commit history containing all commits ever done within this repository. All changes made on your local computer that are commited will be ready to be pushed/sent to the cloud for you to access via internet
+`git push` This will push all commits from your local computer to the cloud, such that all the changes you made to your files are stored in the remote commit history
+`git pull` This will fetch new changes from the cloud/remote branch. In the case where one of your team memebers have made some changes to some files in this repository and pushed them, you are able to pull them into your local computer.
