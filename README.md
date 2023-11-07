@@ -1,8 +1,11 @@
 # Python Challenges
-These are some small Python challenges. 
+Welcome to these small Python challenges!!
+ 
 You can find all the challenges in the `challenges` folder. 
-The solution can be found in the .solution folder. 
-Furthermore, all challenges can be tested via unit tests. So that you know if you found the correct solution. See below for how to run the tests.
+The solution can be found in the `.solution` folder. But this should only be used if you are really stuck, try and solve the tasks by googling yourself. This is the best way to learn a new programming language. 
+
+Furthermore, all challenges can be tested via unit tests in the `tests` folder. 
+By running these you know if you found the correct solution. See below for how to run the tests.
 
 ## Setup
 
