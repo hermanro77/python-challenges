@@ -26,9 +26,11 @@ If you don't have it installed you can use Homebrew, a package manager for Mac, 
 
 
 ## Test your solutions
+After you have implemented a solution for your first task, you can find out if it is a correct solution to the challenge by running the corresponding test.
+
 `python main.py` will run all unit tests for all challenges at once.
 
-### Testing with Intellij
+### Testing with Intellij/Pycharm
 If you want to run the test specifically for one challenge after implementing your solution you can run the tests in intellij from the interface by clicking the green execute test button in the file.
 
 ### Testing with other IDEs or text editors
@@ -37,8 +39,6 @@ If you are using another IDE than Intellij the following approach is recommended
 Install `pytest` with pip by:
 
 `pip install pytest`
-
-
 
 Execute a test with for example:
 
