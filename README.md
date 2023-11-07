@@ -1,23 +1,42 @@
-### Python Challenges
+# Python Challenges
 These are some small Python challenges. 
-They in the problem in the challenges folder. 
+You can find all the challenges in the `challenges` folder. 
 The solution can be found in the .solution folder. 
-Furthermore, all challenges can be tested via unit tests.
+Furthermore, all challenges can be tested via unit tests. So that you know if you found the correct solution. See below for how to run the tests.
 
-### Testing
+## Setup
+
+### Make sure to have Python installed with pip
+
+First check if you already have pytehon and pip with `python --version` and `pip --version`
+
+If you don't have it installed you can use Homebrew, a package manager for Mac, to easily install Python with pip
+
+1. To install Homebrew, run `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"` in your terminal
+2. To install Python, run `brew install python` in your terminal
+
+
+### How to clone this repositry
+
+1. Make a folder where you would like to copy/clone this repository into. You can create a folder from the terminal with `mkdir MyFolder`
+2. Run `git clone https://github.com/hermanro77/python-challenges.git` in your terminal in a folder you would like to clone this repository 
+
+
+## Test your solutions
 `python main.py` will run all unit tests for all challenges at once.
 
-#### With Intellij
+### Testing with Intellij
 If you want to run the test specifically for one challenge after implementing your solution you can run the tests in intellij from the interface by clicking the green execute test button in the file.
 
-#### Other IDEs
+### Testing with other IDEs or text editors
 If you are using another IDE than Intellij the following approach is recommended:
 
-Make sure you have pip then install `pytest` with:
+Install `pytest` with pip by:
 
 `pip install pytest`
 
-Execute test with
+
+
+Execute a test with for example:
 
 `pytest path_to_test_to_execute.py` 
-
