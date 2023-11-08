@@ -11,7 +11,7 @@ By running these you know if you found the correct solution. See below for how t
 
 ### Make sure to have Python installed with pip
 
-First check if you already have pytehon and pip with `python --version` and `pip --version`
+First check if you already have pytehon and pip with `python3 --version` and `pip3 --version`
 
 If you don't have it installed you can use Homebrew, a package manager for Mac, to easily install Python with pip
 
